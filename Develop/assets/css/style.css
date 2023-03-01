@@ -3,16 +3,22 @@
     padding: 0;
     margin: 0;
 }
+/* Adding css variables for repetative code */
+:root {
+    --white: #ffffff;
+    --light-blue: #0072bb;
+    --light-green: #d9dcd6;
+}
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--light-green);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .header h1 {
@@ -21,7 +27,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--light-green);
 }
 
 .header nav {
@@ -42,12 +48,12 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
 .header nav a:hover {
-    color: #d9dcd6;
+    color: var(--light-green);
 }
 
 p {
@@ -89,81 +95,33 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* Simplified code for aside section by making it one css edit */
+aside section {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 /* Simplified code for all h3 elements in the aside element */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+/* Simplified code for aside images by making it one css edit */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Simplified sections in main by making them all one css edit */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--light-blue);
+    color: var(--white);
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/* Simplified the sections images in main by making them all one css edit */
+main section img {
     max-height: 200px;
 }
 /*Simplified code for all h2 elements in main*/
