@@ -16,4 +16,4 @@
 ## Asistance
 * Chris Braid helped guide me through the steps through a zoom tutoring session.
 
-![HoriseonWebPage](assets/images/HoriseonWebPage.jpg)
+    ![HoriseonWebPage](https://github.com/mosjoreland/horiseon-web-refactoring/blob/main/HoriseonWebPage.jpg)
